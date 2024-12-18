@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg  navbar-dark  ">
+        <div class="container-fluid ">
+            <nav class="navbar ">
+                <div class="container-fluid">
+                  <a class="navbar-brand " href="#">
+                    <img  src="images/logo@2x.png" alt="Logo"  width="60" height="60" class="align-text-top text-light "></a> 
+                    <p class="text-light "><span class="fw-bold">Weather</span> <br><span class="fs-6">tagline goes here</span></p> 
+                    <!-- <p class="text-light"> tagline goes here</p> -->
+                </div>
+              </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav ms-auto  ">
+              <a class="nav-link active" aria-current="page" href="#" onclick="setActive(event)">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</a>
+              <a class="nav-link border border-0 clk" href="#" onclick="setActive(event)" >&nbsp;&nbsp;&nbsp;News&nbsp;&nbsp;&nbsp;</a>
+              <a class="nav-link border border-0 clk" href="#" onclick="setActive(event)" > &nbsp;&nbsp; &nbsp;  Live &nbsp;&nbsp; &nbsp;</a>
+              <a class="nav-link border border-0 clk" href="#" onclick="setActive(event)" >&nbsp;&nbsp;&nbsp; cameras&nbsp;&nbsp;&nbsp;</a>
+              <a class="nav-link border border-0 clk" href="#" onclick="setActive(event)" >&nbsp;&nbsp;&nbsp;Photos&nbsp;&nbsp;&nbsp;</a>
+              <a class="nav-link border border-0 clk" href="#" onclick="setActive(event)" >&nbsp;&nbsp;&nbsp; Contact&nbsp;&nbsp;&nbsp;</a>
+
+            </div>
+            
+        </div>
+         </nav>
+    <div class="con ">
+      <div class="container pt-5">
+        <div class="input-container bg-light border rounded-5 w-100 d-flex justify-content-between ps-2 mb-5">
+          <input type="text" class="border-0 w-75 rounded-5 bg-light " placeholder="Find your location... " id="search">
+          <button type="button"  onclick="searchCity()" class="w-12 border-0 me-1 rounded-5 bgbink" >FIND</button>
+        </div>
+       
+        <div class="row " id="row">
+          
+         
+          
+          
+  
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <footer class="site-footer mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="input-container bg-light border rounded-5 w-75 d-flex justify-content-between ps-2 mb-5">
+                  <input type="text" class="border-0 w-75 rounded-5 bg-light " placeholder="Enter Email to supscribe " id="supscribe">
+                  <button type="button" class=" border-0 me-1 rounded-5  bg-blue" >supscribe</button>
+                </div>
+              </div>
+              <div class="col-md-3 col-md-offset-1">
+                <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-google"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+        </footer>
+        
+  
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
+
+
